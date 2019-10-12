@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html>
+	<head lang="zh-CN">
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<script type="text/javascript" src="js/jquery-3.3.1.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<title>首页</title>
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/banner.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/mian.js" ></script>
+	</head>
+	<body>
+		<div id="mian" class="container-fluid">
+			<header id="header" class="container-fluid">
+				<div class="boxShow">
+					<div class="top container">
+						<span>您好！欢迎来到重庆蓝轩清洁品牌官网！</span>
+						<ul>
+							<li><a href="#">加入收藏</a><span>|</span></li>
+							<li><a href="#">在线留言</a><span>|</span></li>
+							<li><a href="#">网站地图</a><span>|</span></li>
+							<li><a href="#">关于蓝轩</a><span>|</span></li>
+							<li><a href="#"><img class="marginRight" src="img/weixin.png" />微信有礼</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="container">
+					<div class="navTop row">
+						<h1 class="col-xs-6 col-sm-1 col-lg-2"></h1>
+						<h2 class="slogan">
+							<img src="img/slogan.png" />
+						</h2>
+						<h3 class="col-sm-3 col-lg-4"></h3>
+						<i class="glyphicon glyphicon-align-justify" onclick="changeI()"></i>
+					</div>
+				</div>
+				<nav class="navli container row">
+					<ul class="container">
+						<li class="col-sm-2"><a href="index.html">网站首页</a></li>
+						<li class="col-sm-2"><a href="gywm.html">关于我们</a></li>
+						<li class="col-sm-2"><a href="xwzx.html">新闻中心</a></li>
+						<li class="col-sm-2"><a href="jyfw.html">经营范围</a></li>
+						<li class="col-sm-2"><a href="cgal.html">成功案例</a></li>
+						<li class="col-sm-2"><a href="jmls.html">加盟连锁</a></li>
+						<li class="col-sm-2"><a href="lxwm.html">联系我们</a></li>
+						<li class="col-sm-2"><a href="rczp.html">人才招聘</a></li>
+					</ul>
+					<div class="navlis container-fluid">
+						<div class="container">
+							<ul class="row">
+								<li class="col-sm-2"></li>
+								<li class="col-sm-2">
+									<a href="#">公司简介</a>
+									<a href="#">企业文化</a>
+									<a href="#">组织架构</a>
+									<a href="#">荣誉资质</a>
+								</li>
+								<li class="col-sm-2">
+									<a href="#">蓝轩动态</a>
+									<a href="#">行业资讯</a>
+									<a href="#">常见问题</a>
+								</li>
+								<li class="col-sm-2">
+									<a href="#">家电清洗</a>
+									<a href="#">居家清洗</a>
+									<a href="#">外墙清洗</a>
+									<a href="#">保洁托管</a>
+									<a href="#">开荒清洁</a>
+									<a href="#">清沟疏通</a>
+									<a href="#">石材护理</a>
+								</li>
+								<li class="col-sm-2">
+									<a href="#">外请高空</a>
+									<a href="#">保洁托管</a>
+									<a href="#">开荒清洁</a>
+									<a href="#">居家清洗</a>
+									<a href="#">石材护理</a>
+									<a href="#">家电清洗</a>
+									<a href="#">清掏疏通</a>
+								</li>
+								<li class="col-sm-2">
+									<a href="#">关于加盟</a>
+									<a href="#">加盟优势</a>
+									<a href="#">加盟方案</a>
+									<a href="#">加盟案例</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<section class="container-fluid">
+				<!-- 轮播图 -->
+				<div class="banner">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active" style="background: url(img/banner1.jpg) -100px 0px no-repeat;background-size: 150% 100%">
+					    	<img src="img/banner1.jpg" />
+					    </div>
+					    <div class="item" style="background: url(img/banner2.jpg) -100px 0px no-repeat;background-size: 150% 100%">
+					    	<img src="img/banner2.jpg" />
+					    </div>
+					  </div>
+					  <!-- Controls -->
+					  <a class="left carousel-control hidden-xs" href="#carousel-example-generic" role="button" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control hidden-xs" href="#carousel-example-generic" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+				<!-- 文字 -->
+				<div class="container">
+					<!-- 服务项目 -->
+					<div class="l-title">
+						<h2>万千见证 • 蓝轩清洁</h2>
+						<div class="txt">客户满意度高达<b>98%</b>的品质之选！</div>
+						<p>
+							<span>
+								服务项目
+								<i>Service project</i>
+							</span>
+							
+						</p>
+					</div>
+					<div class="row itemsBox container-fluid">
+						<dl class="row col-sm-6">
+							<dt class="col-xs-6">
+								<a href="#">
+									<img src="img/item3.jpg" alt="外墙清洗" width="100%" />
+								</a>
+								<div class="msk">
+									<span>
+										<i class="glyphicon glyphicon-plus-sign"></i>
+										<u> 了解更多 >></u>
+									</span>
+								</div>
+							</dt>
+							<dd class="col-xs-">
+								<a href="#">
+									<span class="iconfont">
+										<img src="img/xm1.png" />
+									</span>
+									<b>Wall&nbsp;cleaning </b>
+									<h4>外墙清洗</h4>
+									<p>外墙清洗、外墙维修、外墙粉刷、外墙落水管维修及更换、高空广告牌安装及撤除、厂房高空清洁等；</p>
+								</a>
+							</dd>
+						</dl>
+						<dl class="row col-sm-6">
+							<dt class="col-xs-6">
+								<a href="#">
+									<img src="img/item2.jpg" alt="单位保洁" width="100%" />
+								</a>
+								<div class="msk">
+									<span>
+										<i class="glyphicon glyphicon-plus-sign"></i>
+										<u> 了解更多 >></u>
+									</span>
+								</div>
+							</dt>
+							<dd class="col-xs-6">
+								<a href="#">
+									<span class="iconfont">
+										<img src="img/xm2.png" />
+									</span>
+									<b style="color: #FE8106;;">Daily&nbsp;household</b>
+									<h4>单位保洁</h4>
+									<p>办公场地、娱乐场所、商业中心、物业小区、学校医院、政府单位、工业厂房等保洁外包托管，以及市政道路清扫保洁等；</p>
+								</a>
+							</dd>
+						</dl>
+						<dl class="row col-sm-6">
+							<dt class="col-xs-6">
+								<a href="#">
+									<img src="img/items.jpg" alt="开荒清洁" width="100%" />
+								</a>
+								<div class="msk">
+									<span>
+										<i class="glyphicon glyphicon-plus-sign"></i>
+										<u> 了解更多 >></u>
+									</span>
+								</div>
+							</dt>
+							<dd class="col-xs-6">
+								<a href="#">
+									<span class="iconfont">
+										<img src="img/xm3.png" />
+									</span>
+									<b style="color: #30C76C;">Forest&nbsp;cleaning </b>
+									<h4>开荒清洁</h4>
+									<p>
+										家庭开荒、工装开荒、大扫除，擦拭玻璃，全面牵尘，表面养护，清洗地面，厨厕除污消毒，装修痕迹清理，打蜡等
+									</p>
+								</a>
+							</dd>
+						</dl>
+						<dl class="row col-sm-6">
+							<dt class="col-xs-6">
+								<a href="#">
+									<img src="img/item4.jpg" alt="家政服务" width="100%" />
+								</a>
+								<div class="msk">
+									<span>
+										<i class="glyphicon glyphicon-plus-sign"></i>
+										<u> 了解更多 >></u>
+									</span>
+								</div>
+							</dt>
+							<dd class="col-xs-6">
+								<a href="#">
+									<span class="iconfont">
+										<img src="img/xm4.png" />
+									</span>
+									<b style="color: #FD53A3;">Household&nbsp;cleaning </b>
+									<h4>家政服务</h4>
+									<p>
+										家庭钟点工保洁、新房开荒、节日大扫除等清洁服务；高级保姆、持证月嫂、育儿嫂、老人看护、病人护理、高端家政；
+									</p>
+								</a>
+							</dd>
+						</dl>
+					</div>
+				</div>
+				<!-- 服务至上 -->
+				<div class="container-fluid" style="background-color: white;">
+					<div class="container">
+						<div class="l-title" style="margin-top: 50px;padding-bottom: 20px;">
+							<h2>服务为本 • 客户至上</h2>
+							<div class="txt">
+								多年来我们本着以“服务为本，客户至上”的宗旨<br />
+								服务于整个四川省、重庆、云南省、贵州省等西部城市<br />
+								赢得了广大客户的一致好评
+							</div>
+							<p>
+								<span>
+									成功案例
+									<i>successful&nbsp;case</i>
+								</span>
+										
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- 导航图 -->
+				<div class="row container navDiv">
+					<div class="col-lg-3">
+						<ul>
+							<li class="on"><a href="#">外墙高空</a></li>
+							<li><a href="#">保洁托管</a></li>
+							<li><a href="#">开荒清洁</a></li>
+							<li><a href="#">居家清洗</a></li>
+							<li><a href="#">石材护理</a></li>
+							<li><a href="#">家电清洗</a></li>
+							<li><a href="#">清掏疏通</a></li>
+						</ul>
+					</div>
+					<div class="col-lg-8 change">
+						<ul class="clearfix">
+							<li>
+								<a href="#">
+									<img src="img/tab01.png" />
+									<div class="msk">
+										<h4>玖龙纸业外墙清洗 </h4>
+										<u>查看更多>></u>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/tab02.png" style="width: 100%;height: 100%;" />
+									<div class="msk">
+										<h4>福建解放军第180医院外墙清洗  </h4>
+										<u>查看更多>></u>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/tab03.png" style="width: 100%;height: 100%;" />
+									<div class="msk">
+										<h4>国美电器（重庆、广安）门头清洗   </h4>
+										<u>查看更多>></u>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/tab04.png" style="width: 100%;height: 100%;" />
+									<div class="msk">
+										<h4>北碚小学外墙清洗</h4>
+										<u>查看更多>></u>
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/tab05.png" style="width: 100%;height: 100%;" />
+									<div class="msk">
+										<h4>外墙高空 </h4>
+										<u>查看更多>></u>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- 业界标杆 • 屡获殊荣 -->
+				<div class="container-fluid" style="background-color: #F2F2F2;margin-top: 20px;padding-bottom: 30px;">
+					<div class="container">
+						<div class="l-title">
+							<h2>业界标杆 • 屡获殊荣</h2>
+							<div class="txt">
+								清洁服务系列完善，结构丰富，资质齐全，服务有保障<br />
+								旨在成为现代化、专业化的新概念清洁服务提供商<br />
+								打造行业最具实力和品质的清洁公司 
+							</div>
+							<p>
+								<span>
+									荣誉资质
+									<i>Honorary&nbsp;certificate</i>
+								</span>
+							</p>
+						</div>
+					</div>
+					<!-- 轮播 -->
+					<div class="banner2">
+						<div class="left"></div>
+						<div class="lunbo">
+							<ul>
+								<li>
+									<a href="#">
+										<img src="img/lunbo1.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/lunbo2.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/lunbo3.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/lunbo4.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/lunbo5.png" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/lunbo6.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/lunbo7.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/lunbo8.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/lunbo9.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/lunbo10.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/lunbo11.jpg" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/lunbo12.jpg" />
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="right"></div>
+					</div>
+					<!-- 查看更多 -->
+					<p class="more">
+						<a href="#">查看更多>></a>
+					</p>
+				</div>
+				<div class="container-fluid none" style="background-color: white;">
+					<div class="container">
+						<!-- 加盟蓝轩清洁三大优势 -->
+						<div class="l-title">
+							<h2>加盟蓝轩清洁三大优势</h2>
+							<div class="txt">
+								蓝轩品牌持有公司集管理 <br />
+								服务销售和加盟为一体，实施特许经营模式 <br />
+							</div>
+							<p>
+								<span>
+									蓝轩特色
+									<i>LanXuan&nbsp;characteristics</i>
+								</span>
+							</p>
+						</div>
+						<div class="ysBox">
+							<ul>
+								<li class="row">
+									<div class="txt col-sm-6">
+										<img src="img/01.png" />
+										<p>
+											统一形象、统一服务、统一管理、统一培训、统一指导、统一宣传。
+	              							进行合理的区域细分，避免利益冲突，便于客户自我精心耕作。
+	              							专业全面的业务支援，便于掌握先进的管理理论及管理方法。
+	              							指导客户选定加盟公司地址，做出专业市场分析，精心指导策划开业事宜。
+										</p>
+									</div>
+								</li>
+								<li class="row">
+									<div class="txt col-sm-6">
+										<img src="img/02.png" />
+										<p>
+											提供专业的外墙清洗、开荒清洁、单位保洁培训手册。 <br />
+											授予知名品牌商标使用权。<br />
+											给予开业支持，新公司所需的工作制服、海报、网络广告祝贺、开业礼品等。 <br />
+											专业的营业督导人员到加盟公司对加盟商及管理人员进行培训，讲解清洁服务特点业务技巧，指导公司运作、管理等各方面的专业知识，使加盟商能短时间掌握专业先进的清洁技术及服务管理理念。
+										</p>
+									</div>
+								</li>
+								<li class="row">
+									<div class="txt col-sm-6">
+										<img src="img/03.png" />
+										<p>
+											公司提供完善的管理系统，业务部人员不定期拜访客户，为加盟商提供蓝轩品牌品牌营运信息，并做全盘跟进服务。
+											公司总部不断收集业务信息，配以电脑分析不断渗透了解各区域业务情况，对市场做出快速反应，以提高服务深入度、高服务水准。
+              								统筹全国性及区域性的广告推广工作，提供终端广告支持。 
+										</p>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- 关于我们 -->
+				<div class="container-fluid" style="background-color: white;">
+					<div class="container about">
+						<div class="l-title" style="margin-top: 50px;padding-bottom: 20px;">
+							<h2>
+								<span class="text-info">走近</span>蓝轩
+							</h2>
+							<div class="txt">
+								努力营造“用多一份汗水获取多一份满意” 的服务理念<br />
+								为客户营造<br />
+								优美、舒适、满意、合理的工作与生活环境
+							</div>
+						</div>
+						<div class="aboutBox clearfix">
+							<div class="about-left col-sm-6 col-xs-12">
+								<h3>
+									<a href="#">
+										“顾客至上、品质为先”
+									</a>
+								</h3>
+								<p>
+									 蓝轩品牌,致力于服务好每一位客户,以更专业的清洁服务品牌遍布西南,服务范围沙坪坝清洁公司,保洁公司,外墙清洗公司等,服务电话:18581115111...
+								</p>
+								<a class="more" href="#"> 查看更多>></a>
+								<div class="swiper-container swiper-container-pic pic-list swiper-container-horizontal swiper-container-free-mode">
+									<ul class="swiper-wrapper" style="transform: translate3d(0px, 0px, 0px);">
+										<li>
+											<a href="#">
+												<img src="img/tu.png" />
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="img/tu.png" />
+											</a>
+										</li>
+										<li>
+											<a href="#">
+												<img src="img/tu.png" />
+											</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="about_view col-sm-6 col-xs-12 hidden-xs">
+								<div class="videoBox">
+									<div style="background:#000;width:100%;height:292px;">
+										<embed src="http://player.youku.com/player.php/sid/XNzUxODQ2MzI4/v.swf" 
+											allowfullscreen="true" quality="high" allowscriptaccess="always" 
+											type="application/x-shockwave-flash" width="100%" height="292" align="middle"></embed>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 新闻资讯 -->
+				<div class="container-fluid" style="background-color: white;">
+					<div class="new container">
+						<div class="newsBox row">
+							<div class="news1 col-sm-4 col-xs-12">
+								<div class="n-top">
+									<span>
+										蓝轩动态 /
+										<b>NEWS</b>
+									</span>
+									<a href="#">More&nbsp;>></a>
+								</div>
+								<a href="#">
+									<img class="img-responsive pic" src="img/lx.png" />
+								</a>
+								<ul class="news_list">
+									<li>
+										<a href="#">为什么强调家电清洗的重要性呢？</a>
+										<span>2018-03-02</span>
+									</li>
+									<li>
+										<a href="#">清洁干净好入住，开荒清洁到蓝轩</a>
+										<span>2018-03-02</span>
+									</li>
+									<li>
+										<a href="#">日常生活窗户清洁技巧小提示</a>
+										<span>2018-02-03</span>
+									</li>
+									<li>
+										<a href="#">关于外墙防水和外墙防水涂料如何选择</a>
+										<span>2018-01-02</span>
+									</li>
+									<li>
+										<a href="#">外墙防水补漏多少钱？外墙防水补漏方法是什么？</a>
+										<span>2018-01-02</span>
+									</li>
+									<li>
+										<a href="#">浅析外墙防水的重要性</a>
+										<span>2017-12-22</span>
+									</li>
+								</ul>
+							</div>
+							<div class="news1 col-sm-4 col-xs-12">
+								<div class="n-top">
+									<span>
+										行业资讯 /
+										<b>NEWS</b>
+									</span>
+									<a href="#">More&nbsp;>></a>
+								</div>
+								<a href="#">
+									<img class="img-responsive pic" src="img/hy.png" />
+								</a>
+								<ul class="news_list">
+									<li>
+										<a href="#">外墙清洗的操作方法</a>
+										<span>2018-02-03</span>
+									</li>
+									<li>
+										<a href="#">装配式建筑外墙防水要点</a>
+										<span>2017-12-27</span>
+									</li>
+									<li>
+										<a href="#">浅析外墙防水的重要性</a>
+										<span>2017-12-27</span>
+									</li>
+									<li>
+										<a href="#">新房开荒保洁知识全介绍</a>
+										<span>2017-12-27</span>
+									</li>
+									<li>
+										<a href="#">沙坪坝外墙防水工程怎么样</a>
+										<span>2017-12-07</span>
+									</li>
+									<li>
+										<a href="#">沙坪坝外墙清洗收费标准是怎样的？</a>
+										<span>2017-10-14</span>
+									</li>
+								</ul>
+							</div>
+							<div class="news1 col-sm-4 col-xs-12">
+								<div class="n-top">
+									<span>
+										常见问题 /
+										<b>NEWS</b>
+									</span>
+									<a href="#">More&nbsp;>></a>
+								</div>
+								<div class="q_Box">
+									<ul class="q_list">
+										<li>
+											<h5>
+												<b>提问</b>
+												<a href="#">重庆地板打蜡知识须知</a>
+											</h5>
+											<p>
+												<b>回答</b>
+												<span>
+													因为给地板打蜡可以起到隔绝空气、水气和灰尘的效果，同时还可以防滑、防静电和防磨损，所以现在很多业主都...
+												</span>
+											</p>
+										</li>
+										<li>
+											<h5>
+												<b>提问</b>
+												<a href="#">沙坪坝外墙清洗计划、安全预案及清洗方案</a>
+											</h5>
+											<p>
+												<b>回答</b>
+												<span>
+													外墙清洗方案提要：既要保证外墙的清洗能达到清洁如新的效果，又不能对大厦的外墙有任何破坏性的损坏，这就...
+												</span>
+											</p>
+										</li>
+										<li>
+											<h5>
+												<b>提问</b>
+												<a href="#">重沙坪坝外墙清洗步骤有哪些及外墙保护方法</a>
+											</h5>
+											<p>
+												<b>回答</b>
+												<span>
+													外墙清洗步骤：首先查看作业现场，确定作业方案。重点查看屋顶状况，确定能否安装吊篮、吊板，吊篮、吊板在...
+												</span>
+											</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- 留言 -->
+				<div id="online" class="container-fluid online" style="margin-top: 50px;">
+					<div class="container">
+						<div class="Wgj_input_45">
+							<div class="wgj_input_template">
+								<form id="Wgj_form_45" name="Wgj_form_45" 
+									style="margin:0;padding:0" method="post" enctype="multipart/form-data"
+									action="http://www.cqlanxuan.com/api/sys/wgj/actions/input_add/1/45"
+									target="Wgj_iframe_45">
+									<h4>
+										在线留言
+										<span>Online message </span>
+									</h4>
+									<p class="tips">填写您的真实信息，我们能及时联系到您</p>
+									<input id="name" class="form-control form-group" placeholder="姓名"
+										type="text" isvalidate="true" displayname="姓名" isrequire="true"
+										minnum="2" minlength="2"  maxlength="4" validatetype="None" regexp="" errormessage="" 
+										onblur="panduan(this.id)" onfocus="yanz(this.id)" />
+									<span id="name_msg" style="color: red; margin-left: 5px;"></span>
+									<input id="tel" class="form-control form-group" type="tel" placeholder="手机" minlength="11"  maxlength="11" 
+										onblur="panduan(this.id)" onfocus="yanz(this.id)"/>
+									<span id="name_msg" style="color: red; margin-left: 5px;"></span>
+									<input id="address" class="form-control form-group" type="tel" placeholder="地址" />
+									<textarea style="resize: none;" id="saytext" cols="10" rows="3" class="form-control form-group" placeholder="留言内容" name="saytext"></textarea>
+									<p>
+										<button class="btn btn-info">提交</button>
+										<button class="btn btn-default">重置</button>
+									</p>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<footer id="footer" class="hidden-xs">
+				<div class="container-fluid">
+					<div class="container f1">
+						<div class="flogo hidden-xs">
+							<img src="img/flogo.png" />
+						</div>
+						<div class="lx hidden-xs">
+							<p class="fNav">
+								<a href="#">网站首页</a>|
+								<a href="#">关于我们</a>|
+								<a href="#">新闻中心</a>|
+								<a href="#">经营范围</a>|
+								<a href="#">成功案例</a>|
+								<a href="#">加盟连锁</a>|
+								<a href="#">联系我们</a>|
+								<a href="#">人才招聘</a>|
+							</p>
+							<div class="finfo">
+								<p>
+									<span>服务热线：023-6222-5555&nbsp;/&nbsp;400-023-1958</span>
+								</p>
+								<p>
+									<span>微信咨询：185-8111-5111</span>
+									<span>Q&nbsp;Q咨询：941870299</span>
+								</p>
+								<p>邮&nbsp;箱：cqlanxuan@163.com  </p>
+								<p>地&nbsp;址：重庆市江北区观音桥未来国际41楼（新世界百货塔楼）</p>
+								<p>重庆蓝轩清洁&nbsp;版权所有&copy;<a href="#" style="color:#d9d9d9;margin-left: 20px;">渝ICP备17001484号-17</a></p>
+							</div>
+						</div>
+						<div class="ewm text-center" style="text-align: center;">
+							<img src="img/Qr.jpg" />
+							 微信咨询更便捷 
+						</div>
+					</div>
+					<div class="f2">
+						<p class="container">
+							<span class="pull-left">
+								友情链接：
+								<a href="#" title="成都蓝轩清洁">成都蓝轩清洁</a>
+								<a href="#" title="重庆蓝轩清洁">重庆蓝轩清洁</a>
+							</span>
+							<span class="pull-right">
+								技术支持：
+								<a href="#" title="重庆蓝轩清洁" style="color: #DDDDDD;margin: 0 2px;">网沃科技</a>
+								<span id="cnzz_stat_icon_1264659126">
+									<a href="#">
+										<img src="img/pic.gif" style="vertical-align: middle;" />
+									</a>
+								</span>
+							</span>
+						</p>
+					</div>
+				</div>
+			</footer>
+			<!-- 手机的footer -->
+			<div class="visible-xs-block visible-footer noneDIV">
+				重庆蓝轩清洁 版权所有&copy;<br />
+				联系电话：023-6222-5555<br />
+				技术支持：<a href="#" style="color: #fff;">网沃科技</a>
+			</div>
+			<div class="nav4 visible-xs-block">
+				<nav>
+					<div id="nav4_ul" class="nav_4">
+						<ul class="box">
+							<li>
+								<a href="#">
+									<span>
+										<i class="glyphicon glyphicon-home"></i>
+										网站首页
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>
+										<i class="glyphicon glyphicon-earphone"></i>
+										联系我们
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>
+										<i class="glyphicon glyphicon-hand-up"></i>
+										在线QQ
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<!-- 侧面导航 -->
+			<div class="toolbar hidden-xs">
+				<a href="javascript:;" class="toolbar-item toolbar-item-weixin">
+					<span class="showTu"></span>
+				</a>
+				<a href="javascript:;" class="toolbar-item toolbar-item-feedback">
+				</a>
+				<a href="javascript:;" class="toolbar-item toolbar-item-app">
+					<span class="showTu"></span>
+				</a>
+				<a href="#header" class="toolbar-item toolbar-item-top" id="btn">
+					<span class="showTu"></span>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>
+<script type="text/javascript">
+	function changeI () {
+		var i = $(".navli").css("display")
+		if( i == "none"){
+			$(".navli").show();
+			$(".glyphicon").removeClass("glyphicon-align-justify").addClass("glyphicon-remove");
+		}else{
+			$(".navli").hide();
+			$(".glyphicon").addClass("glyphicon-align-justify");
+		}
+	}
+	$(".navDiv>div:first-of-type li").bind("mouseover",function  () {
+		$(".navDiv>div:first-of-type li").removeClass("on");
+		$(this).addClass("on");
+		var index = $(this).index();
+		var data=[
+			/*外墙高空*/
+			[
+				{imgSrc:"img/tab01.png",h4Text:"玖龙纸业外墙清洗"},
+				{imgSrc:"img/tab02.png",h4Text:"福建解放军第180医院外墙清洗"},
+				{imgSrc:"img/tab03.png",h4Text:"国美电器（重庆、广安）门头清洗"},
+				{imgSrc:"img/tab04.png",h4Text:"北碚小学外墙清洗"},
+				{imgSrc:"img/tab05.png",h4Text:"外墙高空"},
+			],
+			/*保洁托管*/
+			[
+				{imgSrc:"img/tab11.JPG",h4Text:"这是一份神圣而光荣的职责"},
+				{imgSrc:"img/tab12.jpg",h4Text:"九龙坡区黄桷坪街道·道路清扫"},
+				{imgSrc:"img/tab13.jpg",h4Text:"重庆农村商业银行南岸区所有分理处保洁托管  "},
+				{imgSrc:"img/tab14.JPG",h4Text:"卓创国际  "},
+				{imgSrc:"img/tab15.png",h4Text:"法冠-DS高标准旗舰店 "},
+			],
+			/*开荒清洁*/
+			[
+				{imgSrc:"img/tab21.JPG",h4Text:"这是一份神圣而光荣的职责"},
+				{imgSrc:"img/tab22.jpg",h4Text:"九龙坡区黄桷坪街道·道路清扫"},
+				{imgSrc:"img/tab23.jpg",h4Text:"重庆农村商业银行南岸区所有分理处保洁托管  "},
+				{imgSrc:"img/tab24.JPG",h4Text:"卓创国际  "},
+				{imgSrc:"img/tab22.jpg",h4Text:"法冠-DS高标准旗舰店 "},
+			],
+			/*居家清洗*/
+			[
+				{imgSrc:"img/tab31.jpg",h4Text:"沙坪坝家用地毯清理步骤和方法"},
+				{imgSrc:"img/tab32.jpg",h4Text:"沙坪坝沙发清洗方法和保养技巧"},
+				{imgSrc:"img/tab33.jpg",h4Text:"布艺沙发清洁作业流程"},
+				{imgSrc:"img/tab34.jpg",h4Text:"真皮沙发的清洁"},
+				{imgSrc:"img/tab35.jpg",h4Text:"重庆奥蓝酒店足疗椅子清洗"},
+			],
+			/*石材护理*/
+			[
+				{imgSrc:"img/tab41.jpg",h4Text:"关于大理石护理的石材护理方式 "},
+				{imgSrc:"img/tab42.jpg",h4Text:"浅析关于地板打蜡石材的认识  "},
+				{imgSrc:"img/tab43.jpg",h4Text:"沙坪坝石材护理与石材打蜡技术 "},
+				{imgSrc:"img/tab44.jpg",h4Text:"酒店大理石地板打蜡"},
+				{imgSrc:"img/tab45.jpg",h4Text:"交通银行石材护理  "},
+			],
+			/*家电清洗*/
+			[
+				{imgSrc:"img/tab51.JPG",h4Text:"重庆市沙坪坝区农业水利局  "},
+				{imgSrc:"img/tab52.JPG",h4Text:"重庆三峰卡万塔环境产业有限公司油烟机清洗   "},
+				{imgSrc:"img/tab53.JPG",h4Text:"中国人民解放军六九零五厂医院空调清洗  "},
+				{imgSrc:"img/tab54.JPG",h4Text:"重庆安培瑞酒店油烟机、地毯清洗 "},
+				{imgSrc:"img/tab55.JPG",h4Text:"申基索菲特大酒店油烟机清洗   "},
+			],
+			/*清掏疏通*/
+			[
+				{imgSrc:"img/tab61.jpg",h4Text:"沙坪坝清洁公司清掏服务"},
+				{imgSrc:"img/tab62.jpg",h4Text:"专业清掏疏通下水道 "},
+				{imgSrc:"img/tab63.jpg",h4Text:"沙坪坝区备战雨季提前清掏疏通部分下水道"},
+				{imgSrc:"img/tab64.jpg",h4Text:"沙坪坝区清掏疏通工作"},
+				{imgSrc:"img/tab65.jpg",h4Text:"金鹰女人街生化池清掏"},
+			]
+		]
+		for(var j =0;j<data[index].length;j++){
+			$(".clearfix li:nth-of-type("+(j+1)+") img").attr('src',data[index][j].imgSrc);
+			$(".clearfix li:nth-of-type("+(j+1)+") h4").text(data[index][j].h4Text);
+		}
+	})
+	function panduan (idName) {
+		if($("#"+idName+"").val()==false&&idName=="name"){
+			$("#"+idName+"+span").last().text("姓名不能为空！")
+		}else if($("#"+idName+"").val()==false&&idName=="tel"){
+			$("#"+idName+"+span").last().text("电话不能为空！")
+		}
+	}
+	function yanz (idName) {
+		if($("#"+idName+"").val()==false){
+			$("#"+idName+"+span").last().text(" ")
+		}
+	}
+			var btn = document.getElementById("btn");
+			// 定义scrollTop  初始化    times 定时器的名字   target 滚动条的位置  到顶部的距离
+			var scrollTop = 0,times =null,target=0;
+			// 绑定事件 
+			window.onscroll = function(){
+				scrollTop = document.documentElement.scrollTop;
+//				if(scrollTop > 0){
+//					btn.style.display = "block";
+//				}else{
+//					btn.style.display = "";
+//				}
+				// 获取滑动的位置 
+				target = scrollTop;
+			}
+			
+			btn.onclick = function(){
+				clearInterval(times);
+				times=setInterval(function(){
+					target = target-(target*0.2);
+					window.scrollTo(0,target);
+					if(target<=0 ){
+					clearInterval(times);
+					}
+				},50)	
+				return false;
+			}	
+
+</script>

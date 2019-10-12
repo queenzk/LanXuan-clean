@@ -1,0 +1,226 @@
+/* 通用样式 */
+body{
+	font-size: 1.4rem;
+	color: #656565;
+	background-color: #f2f2f2;
+}
+*,h1,h2,h3,h4,
+ul,ol,
+.container-fluid,
+.row,
+.col-xs-5,
+.col-xs-6,
+.col-lg-3,
+.col-lg-4,
+.col-lg-8,
+.col-sm-12{
+	margin: 0px;
+	padding: 0px;
+	transition: ease 0.5s;
+}
+.container{
+	margin: 0 auto;
+}
+a:hover{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+/* 头部样式 */
+header{
+	background-color: white;
+}
+header .boxShow{
+	width: 100%;
+	box-shadow: 1.5px 2.6px 3px 0 #e7e7e7;
+}
+header .top{
+	color: #656565;
+	margin: 0 auto;
+	overflow: hidden;
+	font-size: 1.2rem;
+	line-height: 2rem;
+	padding: 10px;
+}
+header .top>ul{
+	float: right;
+}
+header .top>ul>li{
+	float: left;
+}
+header .top>ul>li>a{
+	color: #656565;
+	padding: 5px;
+}
+header .top>ul>li>a>img{
+	margin-right: 5px;
+}
+header .navTop{
+	position: relative;
+	padding: 10px 0px;
+}
+header .navTop>h1{
+	margin: 8px 0 8px 0;
+	height: 45px;
+	background: url(../img/logo.png) no-repeat center;
+	background-size: contain;/* 把图像图像扩展至最大尺寸，以使其宽度和高度完全适应内容区域。 */
+	float: left;
+}
+header .navTop>.slogan{
+	width: 214px;
+	margin: 8px 0 8px 0;
+	height: 45px;
+	float: left;
+	border-left: 1px solid #DCDCDC;
+}
+header .navTop>.slogan>img{
+	margin-left: 11%;
+}
+header .navTop>i{
+	display: none;
+}
+header .navTop>h3{
+	float: right;
+	overflow: hidden;
+	height: 45px;
+	margin: 8px 0 8px 0;
+	background: url(../img/tel_1.png) no-repeat left center;
+}
+header .navli{
+	width: 100%;
+	min-height: 50px;
+	background: #0376d5;
+}
+header .navli>ul>li{
+	float: left;
+	line-height: 50px;
+}
+header .navli>ul>li>a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: white;
+}
+header .navli>ul>li>a:hover{
+	background-color: #21a66f;
+}
+header .navlis{
+	display: none;
+}
+/* 头部样式完 */
+
+/* 手机样式 */
+@media (max-width: 561px) {
+	/* 公共样式 */
+	.container{
+		margin: 0px;
+		padding: 0px;
+	}
+	/* 头部样式 */
+	header{
+		box-shadow: 1.5px 2.6px 3px 0;
+	}
+	header .top{
+		display: none;
+	}
+	header .navTop{
+		padding: 0px;
+	}
+	header .navTop>h1{
+		width: 50%;
+	}
+	header .navTop>i{
+		position: absolute;
+		font-size: 32px;
+		right: 5px;
+		top: 16px;
+		cursor: pointer;
+		display: block;
+	}
+	header .navTop>.slogan,
+	header .navTop>h2,
+	header .navTop>h3{
+		display: none;
+	}
+	header .navli{
+		display: none;
+		position: absolute;
+		z-index: 999;
+	}
+	header .navli>ul>li{
+		width: 100%;
+		border-bottom: solid 1px #005ca8;
+		border-top: solid 1px #0c8cf5;
+		line-height: 50px;
+	}
+	header .navli>ul>li>a{
+		display: block;
+		width: 100%;
+		text-align: center;
+		color: white;
+	}
+	header .navli>ul>li>a:hover{
+		color: white;
+		background-color: #81c327;
+	}
+}
+/* 平板样式 */
+@media only screen and (min-width: 561px) and (max-width: 990px) {
+	/* 头部样式 */
+	.navTop>h1{
+		width: 24%;
+	}
+	header .navTop>h3{
+		width: 22%;
+	}
+	header .navli{
+		display: block;
+		background: #21A66F;
+	}
+	header .navli>ul{
+		background: #0376d5;
+	}
+	/* 头部样式完 */
+}
+/* 最大屏 */
+@media (min-width: 1200px){
+	body{
+		background-color: white;
+	}
+	/* 头部样式 */
+	header .navTop>h3{
+		width: 29%;
+	}
+	header .navli{
+		height: 50px;
+	}
+	header .navli>ul>li,
+	header .navlis ul>li{
+		width: 12%;
+	}
+	header .navlis{
+		overflow: hidden;
+		padding: 10px 0px;
+		text-align: center;
+		background: url(../img/down_bj.png) 0px 0px repeat !important;
+		position: relative;
+	}
+	header .navlis a{
+		line-height: 30px;
+		display: block;
+		color: white;
+	}
+	header .navlis a:hover{
+		text-decoration: underline;
+	}
+	.navli:hover>.navlis{
+		display: block;
+		position: relative;
+		z-index: 9999;
+	}
+	header .row > div{
+		margin-top: 0px;
+	}
+	/* 头部样式完 */
+}

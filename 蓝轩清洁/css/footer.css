@@ -1,0 +1,178 @@
+	/* 尾部样式 */
+	#footer {
+	    background: #0376D5;
+	    color: #d9d9d9;
+	}
+	#footer .f1 {
+	    display: flex;
+	    justify-content: space-between;
+	    align-items: center;
+	}
+	#footer .f1 > div {
+	    float: left;
+	}
+	#footer .flogo{
+		background: #fff;
+		padding: 48px 10px;
+	}
+	#footer .f1 .lx {
+	    width: 70%;
+	}
+	#footer .fNav {
+	    margin-bottom: 24px;
+	    text-align: left;
+	}
+	#footer .fNav a {
+	    color: #d9d9d9;
+	    margin: 0 15px;
+    }
+    #footer .fNav a:first-of-type{
+    	margin: 0px;
+    }
+    #footer .finfo p span {
+	    margin-right: 20px;
+	}
+	#footer .ewm {
+	    width: 164px;
+	    line-height: 2;
+	}
+	#footer .ewm img {
+	    width: 164px;
+	}
+	#footer .f2 {
+	    background: #545454;
+	    line-height: 54px;
+	    color: #fff;
+	    font-size: 1.4rem;
+	}
+	#footer .f2 span {
+	    color: #DDD;
+	}
+	.pull-left {
+	    float: left !important;
+	}
+	.f2 span.pull-left a {
+	    margin: 0 10px;
+	    color: #DDD;
+	}
+	.visible-footer{
+		background: #0376D5;
+		color: #fff;
+		width: 100%;
+		font-size: 1.4rem;
+		padding: 10px 8px;
+		line-height: 2;
+		text-align: center;
+	}
+	.nav4 {
+	    height: 45px;
+	}
+	nav{
+		display: block;
+	}
+	.nav4 ul {
+	    position: fixed;
+	    z-index: 200;
+	    bottom: 0;
+	    left: 0;
+	    width: 100%;
+	    background: #0376D5;
+	}
+	.nav4 li{
+		border: 1px solid rgba(190,190,190,1);
+		height: 45px;
+		border-bottom: 0;
+		border-right: 0;
+		position: relative;
+		background: #0376D5;
+		float: left;
+		width: 33.26%;
+		list-style: none;
+	}
+	.nav4 li > a{
+		font-size: 15px;
+		box-sizing: border-box;
+		border-bottom: 0;
+		display: block;
+		line-height: 45px;
+		text-align: center;
+		background: #0376D5;
+		color: #fff;
+	}
+	.nav4 li > a span {
+	    color: #fff;
+	    display: inline-block;
+    }
+    .toolbar {
+	    position: fixed;
+	    right: 0px;
+	    bottom: 50px;
+	    z-index: 22;
+	}
+	.toolbar-item-weixin {
+	    background-position: 0 -798px;
+	}
+	.toolbar-item{
+		display: block;
+		width: 52px;
+		height: 52px;
+		margin-top: 1px;
+		position: relative;
+		transition: background-position 1s;
+		background: url(../img/toolbar.png) no-repeat;
+		border: 1px solid #CCCCCC;
+	}
+	.toolbar-item-weixin{
+		background-position-y: -798px;
+	}
+	.toolbar-item-weixin:hover{
+		background-position-y: -860px;
+	}
+	.toolbar-item .showTu{
+		position: absolute;
+		width: 172px;
+		background: url(../img/toolbar.png) no-repeat;
+		right: 50px;
+		bottom: -10px;
+		opacity: 0;
+		transform: scale(0);
+		transform-origin:95% 95%;
+		transition: all 1.5s;
+	}
+	.toolbar-item-weixin .showTu{
+		height: 212px;
+		background-position: 0 0;
+	}
+	.toolbar-item-weixin:hover .showTu{
+		opacity: 1;
+		transform: scale(1.01);
+	}
+	.toolbar-item-feedback{
+		background-position-y: -426px;
+	}
+	.toolbar-item-feedback:hover{
+		background-position-y: -490px;
+	}
+	.toolbar-item-app {
+	    background-position: 0 -550px;
+	}
+	.toolbar-item-app:hover{
+	    background-position: 0 -610px;
+	}
+	.toolbar-item-app .showTu{
+		height: 84px;
+		background-position: 0 -222px;
+	}
+	.toolbar-item-app:hover .showTu{
+		opacity: 1;
+		transform: scale(1.01);
+	}
+	.toolbar-item-top{
+		background-position: 0 -675px;
+	}
+	.toolbar-item-top:hover{
+		background-position: 0 -736px;
+	}
+	#footer .finfo p{
+		line-height: 2em;
+	}

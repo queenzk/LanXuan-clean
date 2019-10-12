@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<script type="text/javascript" src="js/jquery-3.3.1.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<title>公司简介</title>
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/banner.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/gywm.css" />
+		<script type="text/javascript" src="js/mian.js" ></script>
+	</head>
+	<body>
+		<div id="mian">
+			<!-- 头部 -->
+			<header id="header" class="container-fluid">
+				<div class="boxShow">
+					<div class="top container">
+						<span>您好！欢迎来到重庆蓝轩清洁品牌官网！</span>
+						<ul>
+							<li><a href="#">加入收藏</a><span>|</span></li>
+							<li><a href="#">在线留言</a><span>|</span></li>
+							<li><a href="#">网站地图</a><span>|</span></li>
+							<li><a href="#">关于蓝轩</a><span>|</span></li>
+							<li><a href="#"><img class="marginRight" src="img/weixin.png" />微信有礼</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="container">
+					<div class="navTop row">
+						<h1 class="col-xs-6 col-sm-1 col-lg-2"></h1>
+						<h2 class="slogan">
+							<img src="img/slogan.png" />
+						</h2>
+						<h3 class="col-sm-3 col-lg-4"></h3>
+						<i class="glyphicon glyphicon-align-justify" onclick="changeI()"></i>
+					</div>
+				</div>
+				<nav class="navli container row">
+					<ul class="container">
+						<li class="col-sm-2"><a href="index.html">网站首页</a></li>
+						<li class="col-sm-2"><a href="gywm.html">关于我们</a></li>
+						<li class="col-sm-2"><a href="xwzx.html">新闻中心</a></li>
+						<li class="col-sm-2"><a href="jyfw.html">经营范围</a></li>
+						<li class="col-sm-2"><a href="cgal.html">成功案例</a></li>
+						<li class="col-sm-2"><a href="jmls.html">加盟连锁</a></li>
+						<li class="col-sm-2"><a href="lxwm.html">联系我们</a></li>
+						<li class="col-sm-2"><a href="rczp.html">人才招聘</a></li>
+					</ul>
+					<div class="navlis container-fluid">
+						<div class="container">
+							<ul class="row">
+								<li class="col-sm-2"></li>
+								<li class="col-sm-2">
+									<a href="#">公司简介</a>
+									<a href="#">企业文化</a>
+									<a href="#">组织架构</a>
+									<a href="#">荣誉资质</a>
+								</li>
+								<li class="col-sm-2">
+									<a href="#">蓝轩动态</a>
+									<a href="#">行业资讯</a>
+									<a href="#">常见问题</a>
+								</li>
+								<li class="col-sm-2">
+									<a href="#">家电清洗</a>
+									<a href="#">居家清洗</a>
+									<a href="#">外墙清洗</a>
+									<a href="#">保洁托管</a>
+									<a href="#">开荒清洁</a>
+									<a href="#">清沟疏通</a>
+									<a href="#">石材护理</a>
+								</li>
+								<li class="col-sm-2">
+									<a href="#">外请高空</a>
+									<a href="#">保洁托管</a>
+									<a href="#">开荒清洁</a>
+									<a href="#">居家清洗</a>
+									<a href="#">石材护理</a>
+									<a href="#">家电清洗</a>
+									<a href="#">清掏疏通</a>
+								</li>
+								<li class="col-sm-2">
+									<a href="#">关于加盟</a>
+									<a href="#">加盟优势</a>
+									<a href="#">加盟方案</a>
+									<a href="#">加盟案例</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<section class="container-fluid">
+				<!-- 轮播图 -->
+				<div class="banner">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active" style="background: url(img/banner1.jpg) -100px 0px no-repeat;background-size: 150% 100%">
+					    	<img src="img/banner1.jpg" />
+					    </div>
+					    <div class="item" style="background: url(img/banner2.jpg) -100px 0px no-repeat;background-size: 150% 100%">
+					    	<img src="img/banner2.jpg" />
+					    </div>
+					  </div>
+					  <!-- Controls -->
+					  <a class="left carousel-control hidden-xs" href="#carousel-example-generic" role="button" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control hidden-xs" href="#carousel-example-generic" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+				<!-- 导航内容 -->
+				<div class="container">
+					<!-- 左边 -->
+					<div class="side col-sm-3 col-xs-12">
+						<div class="side1 col-xs-12">
+							<!-- 关于我们 -->
+							<div class="to hidden-xs">
+								<h3 class="hidden-xs">关于我们 </h3>
+								<span>/&nbsp;about us</span>
+							</div>
+							<!-- 关于我们下面的导航  -->
+							<ul id="partnav" class="col-xs-12">
+								<li class="col-sm-12 col-xs-3">
+									<a class="hover" href="#">
+										公司简介
+										<i> >> </i>
+									</a>
+								</li>
+								<li class="col-sm-12 col-xs-3">
+									<a href="#">
+										企业文化
+										<i> >> </i>
+									</a>
+								</li>
+								<li class="col-sm-12 col-xs-3">
+									<a  href="#">
+										组织架构
+										<i> >> </i>
+									</a>
+								</li>
+								<li class="col-sm-12 col-xs-3">
+									<a href="#">
+										荣誉资质
+										<i> >> </i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- 推荐资讯 -->
+						<div class="side3 col-xs-12 hidden-xs ny_l_news">
+							<div class="to hidden-xs">
+								<h3 class="hidden-xs" style="padding-bottom: 10px;">
+									推荐资讯 
+									<span>/&nbsp;Recommend</span>
+								</h3>
+							</div>
+							<ul>
+										<li onmouseleave="show(this)">
+											<em class="lf">1</em>
+											<a href="#">为什么强调家电清洗的重要性呢？</a>
+											<div>
+												<span class="lf">
+													<a href="#" class="jzimg">
+														<img class="img-responsive"  src="img/show.jpg" />
+														<i></i>
+													</a>
+												</span>
+												<strong class="rt">
+													<p class="str_p1"></p>
+													<p class="str_p2">time:2018-03-02</p>
+												</strong>
+											</div>
+										</li>
+										<li>
+											<em class="lf">2</em>
+											<a href="#">清洁干净好入住，开荒清洁到蓝轩</a>
+											<div>
+												<span class="lf">
+													<a href="#" class="jzimg">
+														<img class="img-responsive"  src="img/show1.png" />
+														<i></i>
+													</a>
+												</span>
+												<strong class="rt">
+													<p class="str_p1"></p>
+													<p class="str_p2">time:2018-03-02</p>
+												</strong>
+											</div>
+										</li>
+										<li>
+											<em class="lf">3</em>
+											<a href="#">日常生活窗户清洁技巧小提示</a>
+											<div>
+												<span class="lf">
+													<a href="#" class="jzimg">
+														<img class="img-responsive"  src="img/show2.jpg" />
+														<i></i>
+													</a>
+												</span>
+												<strong class="rt">
+													<p class="str_p1"></p>
+													<p class="str_p2">time:2018-03-02</p>
+												</strong>
+											</div>
+										</li>
+										<li>
+											<em class="lf">4</em>
+											<a href="#">外墙防水补漏多少钱？外墙防水补漏方法是什么？</a>
+											<div>
+												<span class="lf">
+													<a href="#" class="jzimg">
+														<img class="img-responsive"  src="img/show3.png" />
+														<i></i>
+													</a>
+												</span>
+												<strong class="rt">
+													<p class="str_p1"></p>
+													<p class="str_p2">time:2018-03-02</p>
+												</strong>
+											</div>
+										</li>
+									</ul>
+						</div>
+						<!-- 联系我们 -->
+						<div class="side2 hidden-xs col-sm-12">
+							<div class="to hidden-xs">
+								<h3 class="hidden-xs">联系我们</h3>
+								<span>/&nbsp;contact us</span>
+							</div>
+							<div class="lx">
+								<p>
+									服务热线：023-6222-5555 <br />
+									服务热线：400-023-1958<br />
+									VIP 专线：185-8111-5111<br />
+									Q&nbsp;Q 咨询：941870299<br />
+									邮&nbsp;&nbsp;箱：cqlanxuan@163.com <br />
+									公司地址：重庆市江北区观音桥未来国际41楼（新世界百货塔楼） 
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- 右边 -->
+					<div class="content_box col-sm-9 col-xs-12">
+						<div class="local clearfix">
+							<span class="hidden-xs">
+								公司简介
+							</span>
+							<p>
+								您当前所在位置：
+								<a href="index.html">首页</a>
+								-
+								<a href="#">关于我们</a>
+							</p>
+						</div>
+						<div class="content">
+							<div class="txt">
+								<p>
+									<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">
+										<strong style="color: rgb(0, 176, 240); white-space: normal;">
+											<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">
+												一、 公司简介：
+											</span>
+										</strong>
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;text-indent: 2em;">
+										重庆蓝轩清洁服务有限公司创立于2008年3月3日，注册资本1000万元，经过近十年的发展，现有固定员工1000余名，
+										公司现有租赁写字楼办公面积545平方米，公司已购买独栋办公楼1236平方米（两江健康科技城），并先后在成都、达州、贵阳以及昆明成立了直营分公司。
+									</span>
+								</p>
+								<p style="margin-top: 30px;">
+									<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">
+										<strong style="color: rgb(0, 176, 240); white-space: normal;">
+											<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">
+												二、 主营业务：
+											</span>
+										</strong>
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										1、保洁托管：办公场地、娱乐商业、物业小区、学校医院、工业厂房等保洁外包托管，以及市政道路清扫保洁等；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										2、外墙高空：外墙清洗、外墙维修、外墙粉刷、外墙落水管维修及更换、高空广告牌安装及撤除等；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										3、开荒清洁：办公室、厂房、别墅、酒店、居室等场所装修后的开荒清洁；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										4、高位服务：厂房高位除尘、门头清洗、雨棚清洗等；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										5、清掏疏通：生化池清掏、化粪池清理、隔油池清掏、下水管道疏通及维护维修等；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										6、 钟点保洁：家庭定期保洁、家庭大扫除、玻璃专项清洁等，按小时计算；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										7、 家电清洗：家用空调、抽油烟机、以及其他家电清洗；大型油烟管道、大型中央空调清洗等；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										8、 其它服务：石材护理、沙发清洗、地毯清洗、窗帘清洗等。
+									</span>
+								</p>
+								<p style="margin-top: 30px;">
+									<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">
+										<strong style="color: rgb(0, 176, 240); white-space: normal;">
+											<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">
+												三、公司资质：
+											</span>
+										</strong>
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										1、《劳务派遣经营》许可证
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										2、《ISO9001质量管理体系认证》复印件
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										3、《ISO14001环境管理体系认证》复印件
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										4、《职业健康安全管理体系认证》复印件
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										5、《AAA级诚信经营示范单位》复印件
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										6、《AAA级重合同守信用企业》复印件
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										7、《AAA级质量、服务诚信单位》复印件
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										8、《企业信用等级证书》复印件
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										9、《城市环境卫生经营服务》资质等级证书
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										10、《城市生活垃圾经营性清扫收集服务许可证》
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										11、《高空服务企业安全资质证书》
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										12、《中国职业安全健康协会高空服务业分会》会员证   
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										13、《建筑物外立面清洁养护施工》甲级 
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										14、《城市粪便污水处理经营服务》资质认定证书二级 
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										15、《化粪池车辆登记资料及清掏专项职业能力证书》
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										16、《疏浚工安全生产培训证书》
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										17、《座板式单人吊具悬吊作业安全技术规范》培训证
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										18、《管理人员安全员资格证书》复印件
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										19、《高空作业人员上岗证》复印件
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										20、蜘蛛人《高空操作证》复印件
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										21、蜘蛛人104万元5类意外《保险合同》复印件
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										22、高空操作、开荒清洁人员《雇主责任险》
+									</span>
+								</p>
+								<p  style="margin-top: 30px;">
+									<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">
+										<strong style="color: rgb(0, 176, 240); white-space: normal;">
+											<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">
+												四、企业优势：
+											</span>
+										</strong>
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										1、公司注册资金1000万，有很强的抗风险的能力；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										2、公司成立10年的时间，无重大安全事故发生，有很强的安全管理经验；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										3、我公司是建筑物外立面清洗甲级资质企业，高空操作员均持证并购买高额意外险上岗，最大限度的规避公司潜在安全风险；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										4、我公司是重庆为数不多的化粪池清掏二级资质企业；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										5、我公司通过了ISO-9001质量管理体系认证和ISO-14001环境管理体系认证，拥有规范的施工和操作流程；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										6、有1000余家企业选择和我公司长期合作，信誉良好。
+									</span>
+								</p>
+								<p style="margin-top: 30px;">
+									<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">
+										<strong style="color: rgb(0, 176, 240); white-space: normal;">
+											<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 14px;">
+												五、企业宗旨：
+											</span>
+										</strong>
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										1、安全第一，品质为先；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										2、快乐服务，极致关怀；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										 3、十年品质，值得信赖；
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 14px;">
+										 <img width="100%" src="img/tu.png" />
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- 尾部  -->
+			<footer id="footer" class="hidden-xs" style="margin-top: 50px;">
+				<div class="container-fluid">
+					<div class="container f1">
+						<div class="flogo hidden-xs">
+							<img src="img/flogo.png" />
+						</div>
+						<div class="lx hidden-xs">
+							<p class="fNav">
+								<a href="#">网站首页</a>|
+								<a href="#">关于我们</a>|
+								<a href="#">新闻中心</a>|
+								<a href="#">经营范围</a>|
+								<a href="#">成功案例</a>|
+								<a href="#">加盟连锁</a>|
+								<a href="#">联系我们</a>|
+								<a href="#">人才招聘</a>|
+							</p>
+							<div class="finfo">
+								<p>
+									<span>服务热线：023-6222-5555&nbsp;/&nbsp;400-023-1958</span>
+								</p>
+								<p>
+									<span>微信咨询：185-8111-5111</span>
+									<span>Q&nbsp;Q咨询：941870299</span>
+								</p>
+								<p>邮&nbsp;箱：cqlanxuan@163.com  </p>
+								<p>地&nbsp;址：重庆市江北区观音桥未来国际41楼（新世界百货塔楼）</p>
+								<p>重庆蓝轩清洁&nbsp;版权所有&copy;<a href="#" style="color:#d9d9d9;margin-left: 20px;">渝ICP备17001484号-17</a></p>
+							</div>
+						</div>
+						<div class="ewm text-center" style="text-align: center;">
+							<img src="img/Qr.jpg" />
+							 微信咨询更便捷 
+						</div>
+					</div>
+					<div class="f2">
+						<p class="container">
+							<span class="pull-left">
+								友情链接：
+								<a href="#" title="成都蓝轩清洁">成都蓝轩清洁</a>
+								<a href="#" title="重庆蓝轩清洁">重庆蓝轩清洁</a>
+							</span>
+							<span class="pull-right">
+								技术支持：
+								<a href="#" title="重庆蓝轩清洁" style="color: #DDDDDD;margin: 0 2px;">网沃科技</a>
+								<span id="cnzz_stat_icon_1264659126">
+									<a href="#">
+										<img src="img/pic.gif" style="vertical-align: middle;" />
+									</a>
+								</span>
+							</span>
+						</p>
+					</div>
+				</div>
+			</footer>
+			<!-- 手机的footer -->
+			<div class="visible-xs-block visible-footer noneDIV">
+				重庆蓝轩清洁 版权所有&copy;<br />
+				联系电话：023-6222-5555<br />
+				技术支持：<a href="#" style="color: #fff;">网沃科技</a>
+			</div>
+			<div class="nav4 visible-xs-block">
+				<nav>
+					<div id="nav4_ul" class="nav_4">
+						<ul class="box">
+							<li>
+								<a href="#">
+									<span>
+										<i class="glyphicon glyphicon-home"></i>
+										网站首页
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>
+										<i class="glyphicon glyphicon-earphone"></i>
+										联系我们
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>
+										<i class="glyphicon glyphicon-hand-up"></i>
+										在线QQ
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<!-- 侧面导航 -->
+			<div class="toolbar hidden-xs">
+				<a href="javascript:;" class="toolbar-item toolbar-item-weixin">
+					<span class="showTu"></span>
+				</a>
+				<a href="javascript:;" class="toolbar-item toolbar-item-feedback">
+				</a>
+				<a href="javascript:;" class="toolbar-item toolbar-item-app">
+					<span class="showTu"></span>
+				</a>
+				<a href="#header" class="toolbar-item toolbar-item-top" id="btn">
+					<span class="showTu"></span>
+				</a>
+			</div>
+		</div>
+	</body>
+</html>

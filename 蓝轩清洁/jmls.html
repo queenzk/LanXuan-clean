@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<script type="text/javascript" src="js/jquery-3.3.1.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+		<title>加盟连锁</title>
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/banner.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/jmls.css" />
+		<script type="text/javascript" src="js/mian.js" ></script>
+	</head>
+	<body>
+		<div id="mian">
+			<header id="header" class="container-fluid">
+				<div class="boxShow">
+					<div class="top container">
+						<span>您好！欢迎来到重庆蓝轩清洁品牌官网！</span>
+						<ul>
+							<li><a href="#">加入收藏</a><span>|</span></li>
+							<li><a href="#">在线留言</a><span>|</span></li>
+							<li><a href="#">网站地图</a><span>|</span></li>
+							<li><a href="#">关于蓝轩</a><span>|</span></li>
+							<li><a href="#"><img class="marginRight" src="img/weixin.png" />微信有礼</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="container">
+					<div class="navTop row">
+						<h1 class="col-xs-6 col-sm-1 col-lg-2"></h1>
+						<h2 class="slogan">
+							<img src="img/slogan.png" />
+						</h2>
+						<h3 class="col-sm-3 col-lg-4"></h3>
+						<i class="glyphicon glyphicon-align-justify" onclick="changeI()"></i>
+					</div>
+				</div>
+				<nav class="navli container row">
+					<ul class="container">
+						<li class="col-sm-2"><a href="index.html">网站首页</a></li>
+						<li class="col-sm-2"><a href="gywm.html">关于我们</a></li>
+						<li class="col-sm-2"><a href="xwzx.html">新闻中心</a></li>
+						<li class="col-sm-2"><a href="jyfw.html">经营范围</a></li>
+						<li class="col-sm-2"><a href="cgal.html">成功案例</a></li>
+						<li class="col-sm-2"><a href="jmls.html">加盟连锁</a></li>
+						<li class="col-sm-2"><a href="lxwm.html">联系我们</a></li>
+						<li class="col-sm-2"><a href="rczp.html">人才招聘</a></li>
+					</ul>
+					<div class="navlis container-fluid">
+						<div class="container">
+							<ul class="row">
+								<li class="col-sm-2"></li>
+								<li class="col-sm-2">
+									<a href="#">公司简介</a>
+									<a href="#">企业文化</a>
+									<a href="#">组织架构</a>
+									<a href="#">荣誉资质</a>
+								</li>
+								<li class="col-sm-2">
+									<a href="#">蓝轩动态</a>
+									<a href="#">行业资讯</a>
+									<a href="#">常见问题</a>
+								</li>
+								<li class="col-sm-2">
+									<a href="#">家电清洗</a>
+									<a href="#">居家清洗</a>
+									<a href="#">外墙清洗</a>
+									<a href="#">保洁托管</a>
+									<a href="#">开荒清洁</a>
+									<a href="#">清沟疏通</a>
+									<a href="#">石材护理</a>
+								</li>
+								<li class="col-sm-2">
+									<a href="#">外请高空</a>
+									<a href="#">保洁托管</a>
+									<a href="#">开荒清洁</a>
+									<a href="#">居家清洗</a>
+									<a href="#">石材护理</a>
+									<a href="#">家电清洗</a>
+									<a href="#">清掏疏通</a>
+								</li>
+								<li class="col-sm-2">
+									<a href="#">关于加盟</a>
+									<a href="#">加盟优势</a>
+									<a href="#">加盟方案</a>
+									<a href="#">加盟案例</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+			<section class="container-fluid">
+				<!-- 轮播图 -->
+				<div class="banner">
+					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					  <!-- Indicators -->
+					  <ol class="carousel-indicators">
+					    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+					    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+					  </ol>
+					  <!-- Wrapper for slides -->
+					  <div class="carousel-inner" role="listbox">
+					    <div class="item active" style="background: url(img/banner1.jpg) -100px 0px no-repeat;background-size: 150% 100%">
+					    	<img src="img/banner1.jpg" />
+					    </div>
+					    <div class="item" style="background: url(img/banner2.jpg) -100px 0px no-repeat;background-size: 150% 100%">
+					    	<img src="img/banner2.jpg" />
+					    </div>
+					  </div>
+					  <!-- Controls -->
+					  <a class="left carousel-control hidden-xs" href="#carousel-example-generic" role="button" data-slide="prev">
+					    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="right carousel-control hidden-xs" href="#carousel-example-generic" role="button" data-slide="next">
+					    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
+					</div>
+				</div>
+				<!-- 导航内容 -->
+				<div class="container">
+					<!-- 左边 -->
+					<div class="side col-sm-3 col-xs-12">
+						<!-- 关于我们 -->
+						<div class="side1 col-xs-12">
+							<div class="to hidden-xs">
+								<h3 class="hidden-xs">加盟连锁</h3>
+								<span>/&nbsp;join us</span>
+							</div>
+							<!-- 关于我们下面的导航  -->
+							<ul id="partnav" class="col-xs-12">
+								<li class="col-sm-12 col-xs-3">
+									<a class="hover" href="#">
+										关于加盟
+										<i> >> </i>
+									</a>
+								</li>
+								<li class="col-sm-12 col-xs-3">
+									<a href="#">
+										加盟优势
+										<i> >> </i>
+									</a>
+								</li>
+								<li class="col-sm-12 col-xs-3">
+									<a href="#">
+										加盟方案
+										<i> >> </i>
+									</a>
+								</li>
+								<li class="col-sm-12 col-xs-3">
+									<a href="#">
+										加盟案例
+										<i> >> </i>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<!-- 推荐资讯 -->
+						<div class="side3 col-xs-12 hidden-xs ny_l_news">
+							<div class="to hidden-xs">
+								<h3 class="hidden-xs" style="padding-bottom: 10px;">
+									推荐资讯 
+									<span>/&nbsp;Recommend</span>
+								</h3>
+							</div>
+							<ul>
+										<li>
+											<em class="lf">1</em>
+											<a href="#">为什么强调家电清洗的重要性呢？</a>
+											<div>
+												<span class="lf">
+													<a href="#" class="jzimg">
+														<img class="img-responsive"  src="img/show.jpg" />
+														<i></i>
+													</a>
+												</span>
+												<strong class="rt">
+													<p class="str_p1"></p>
+													<p class="str_p2">time:2018-03-02</p>
+												</strong>
+											</div>
+										</li>
+										<li>
+											<em class="lf">2</em>
+											<a href="#">清洁干净好入住，开荒清洁到蓝轩</a>
+											<div>
+												<span class="lf">
+													<a href="#" class="jzimg">
+														<img class="img-responsive"  src="img/show1.png" />
+														<i></i>
+													</a>
+												</span>
+												<strong class="rt">
+													<p class="str_p1"></p>
+													<p class="str_p2">time:2018-03-02</p>
+												</strong>
+											</div>
+										</li>
+										<li>
+											<em class="lf">3</em>
+											<a href="#">日常生活窗户清洁技巧小提示</a>
+											<div>
+												<span class="lf">
+													<a href="#" class="jzimg">
+														<img class="img-responsive"  src="img/show2.jpg" />
+														<i></i>
+													</a>
+												</span>
+												<strong class="rt">
+													<p class="str_p1"></p>
+													<p class="str_p2">time:2018-03-02</p>
+												</strong>
+											</div>
+										</li>
+										<li>
+											<em class="lf">4</em>
+											<a href="#">外墙防水补漏多少钱？外墙防水补漏方法是什么？</a>
+											<div>
+												<span class="lf">
+													<a href="#" class="jzimg">
+														<img class="img-responsive"  src="img/show3.png" />
+														<i></i>
+													</a>
+												</span>
+												<strong class="rt">
+													<p class="str_p1"></p>
+													<p class="str_p2">time:2018-03-02</p>
+												</strong>
+											</div>
+										</li>
+									</ul>
+						</div>
+						<!-- 联系我们 -->
+						<div class="side2 hidden-xs col-sm-12">
+							<div class="to hidden-xs">
+								<h3 class="hidden-xs">联系我们</h3>
+								<span>/&nbsp;contact us</span>
+							</div>
+							<div class="lx">
+								<p>
+									服务热线：023-6222-5555 <br />
+									服务热线：400-023-1958<br />
+									VIP 专线：185-8111-5111<br />
+									Q&nbsp;Q 咨询：941870299<br />
+									邮&nbsp;&nbsp;箱：cqlanxuan@163.com <br />
+									公司地址：重庆市江北区观音桥未来国际41楼（新世界百货塔楼） 
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- 右边 -->
+					<div class="content_box col-sm-9 col-xs-12">
+						<div class="local clearfix">
+							<span class="hidden-xs">
+								关于加盟
+							</span>
+							<p>
+								您当前所在位置：
+								<a href="index.html">首页</a>
+								-
+								<a href="#">加盟连锁</a>
+							</p>
+						</div>
+						<div class="content">
+							<div class="txt">
+								<p>
+									<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 20px;">
+										<strong style="color: rgb(0, 176, 240); white-space: normal;">
+											<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 20px;">
+												企业介绍：
+											</span>
+										</strong>
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										蓝轩品牌成立于2008年3月，注册资金1000万，现拥有员工1000余名，且拥有齐全的高空作业资质和队伍，
+										曾多次荣获重庆市环境卫生协会常务理事单位，多年来我们本着以“服务为本，客户至上”的宗旨，服务于整个重庆市、
+										四川省、云南省、贵州省等西部城市，赢得了广大客户的一致好评，蓝轩将继续发扬“不怕苦，不怕累”的精神，力求打造西南片区最具实力和品质的清洁品牌。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										蓝轩品牌品牌持有公司集管理、服务、销售和加盟为一体，实施特许经营模式。服务涵盖市政清洁工程服务、便民清洁服务、便民保洁服务、
+										便民家政服务、便民高空服务等全方位清洁服务。服务具有明显的中国传统诚信商业服务特征，体现出东方的生活智慧和时尚的环保理念。
+										在清洁服务研发及管理设计上，不断创新，风格鲜明，独特的管理中透出骨子里的东方文化精髓；
+										清洁服务系列完善，结构丰富；在品牌建设上，已形成了一个让行业内外客户高度认同的“高品位的清洁公司”品牌。
+									</span>
+								</p>
+								<p style="margin-top: 30px;">
+									<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 20px;">
+										<strong style="color: rgb(0, 176, 240); white-space: normal;">
+											<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 20px;">
+												企业文化：
+											</span>
+										</strong>
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										蓝轩遵循内强企业文化，外树品牌形象的管理方式，蓝轩品牌始终如一的贯彻以服务为载体，以品牌为桥梁，以人才为核心的经营之道，强化企业的核心竞争力，不断扩大清洁技术队伍。
+										同时筹备和培养一支高素质、高战斗力和执行力的销售团队，坚决执行规范化、标准化的营销运作管理模式，精耕细做，完善细节，为终端服务。
+										切实做到以人为本的现代企业管理，人才是企业发展的基石，公司注重吸纳人才和培养人才。蓝轩品牌制定了科学的福利政策和激励机制，还为员工举办形式多样的培训。
+										通过企业管理软硬件的提升，使蓝轩品牌一直处于不断发展、创新中。为员工搭建发展平台，为客户塑造美好空间，为社会贡献绵薄之力，是蓝轩人的应有责任和久远使命。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										21世纪是品牌竞争的时代，品牌的背后是文化，文化是企业脱离实体依然存在与发展的根本。
+										蓝轩人正以其孜孜不倦的奋斗精神，根植东方人文理念，全力打造高品位的新中式清洁公司文化，形成了品位时尚、清洁环保的意识形态。
+										蓝轩品牌将在传承自己独特企业文化和品牌文化基因的同时，追求卓越，不断创新，为打造一个百年清洁品牌而不懈奋进。
+									</span>
+								</p>
+								<p style="margin-top: 30px; ">
+									<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 20px;">
+										<strong style="color: red; white-space: normal;">
+											<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 20px;">
+												加盟优势：
+											</span>
+										</strong>
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										蓝轩品牌运用正规自营连锁及特许加盟连锁的经营模式，在3年多的时间里迅速发展，业务遍布大西南地区各大中城市。
+										“实施名牌连锁战略，铸造中国清洁保洁领域领导性品牌”是蓝轩品牌发展的方向和不懈的追求。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										不断创新是蓝轩品牌品牌成功的主要因素，我们追求精致、追求完美，我们一直在努力。
+										“谁控制了终端，谁就会赢得市场”，蓝轩品牌公司一直致力于终端管理的建设和完善。多年的奋斗，已经有一套完整的品牌终端管理模式。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										1. 统一形象、统一服务、统一管理、统一培训、统一指导、统一宣传。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										2. 进行合理的区域细分，避免利益冲突，便于客户自我精心耕作，保证利益最大化。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										3. 专业全面的业务支援，便于掌握先进的管理理论及管理方法。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										4. 指导客户选定加盟公司地址，做出专业市场分析，精心指导策划开业事宜。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										5. 提供专业的外墙清洗、开荒清洁、单位保洁培训手册。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										6. 授予知名品牌商标使用权。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										7. 给予开业支持，新公司所需的工作制服、海报、网络广告祝贺、开业礼品等。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										8. 专业的营业督导人员到加盟公司对加盟商及管理人员进行培训，讲解清洁服务特点、业务技巧，指导公司运作、管理等各方面的专业知识，使加盟商能短时间掌握专业、先进的清洁技术及服务管理理念。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										9. 公司提供完善的管理系统，业务部人员不定期拜访客户，为加盟商提供蓝轩品牌品牌营运信息，并做全盘跟进服务。公司总部不断收集业务信息，配以电脑分析，不断渗透了解各区域业务情况，对市场做出最快反应，以提高服务深入度、高服务水准。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										10. 统筹全国性及区域性的广告推广工作，提供终端广告支持。
+									</span>
+								</p>
+								<p style="margin-top: 30px;">
+									<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 20px;">
+										<strong style="color: rgb(0, 176, 240); white-space: normal;">
+											<span style="font-family: 微软雅黑, 'Microsoft YaHei'; font-size: 20px;">
+												行业前景:
+											</span>
+										</strong>
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										保洁即现今社会意义上的清洁工作,它既包含一般清洁卫生工作的内容,又区别于一般的清洁卫生工作。
+										通常保洁是由经过专门培训的专业技术人员,使用专门的清洁机器、清洁工具和清洁剂,按照科学的管理方法
+										和严格的清洁保养程序、技术规范,对物业的各种材质进行有针对性的清洗和护理,以求保持其应有的表面光泽
+										和高洁净度的一项专业化的工作。 保洁工作决不是一块抹布一把扫帚那么简单，各种不同的建筑材料需要使用各种不同的清洁剂，
+										各种现代化清洁设备（多功能洗地机、吸水吸尘器、高压射流机、高温蒸气机、烘干机等）的操作使用，使现代化清洁工作有了
+										相当程度的科学性和专业性。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										随着中国经济的高速发展，城市化进程的加快，更多城市建筑的出现，建筑物污染问题日益突出，最为突出的是裸露的建筑物外墙和日益豪华的内部装修。
+										建筑物外墙常年经受风吹日晒产生自然风化,大气中的各种尘埃附着在建筑物的外表,许多腐蚀性物质的直接作用也使建筑物外表遭到污染及破坏,失去了原有的风采,
+										极大地影响了城市的美观和形象。随着建筑物内部装修向高档化、复杂化、人性化方向发展,大量昂贵的装饰材料和配套设施得以广泛应用,由于人为和自然的因素,也极易受到污染。
+										所以无论是建筑物外部的清洗还是内部的保洁,都是传统清洁方式所不能满足的，都需要专业的清洗保洁服务。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										伴随经济的发展,城市建设的加快以及人们对于高质量生活的追求,使得专业的清洗保洁服务日益受到关注与青睐。 爱国卫生、市容市貌活动以及国家卫生城市，
+										优秀旅游城市的活动也刺激着专业清洗保洁市场的迅速发展，使得物业保洁市场呈现出令人振奋的买方市场。
+										另据信息产业部统计，国内每年潜在着3000亿元人民币的专业保洁市场需求。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;">
+										先机即商机，国内清洁保洁市场的需求空间在强劲的消费拉动下变得空前宽广。
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;font-style: italic;color: red;font-weight: bold;margin-top: 40px;">
+										蓝轩品牌期待您的加入！
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;font-style: italic;color: red;font-weight: bold;">
+										咨询热线：023-6222-5555
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;font-style: italic;color: red;font-weight: bold;">
+										全国热线：400-023-1958
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;font-style: italic;color: red;font-weight: bold;">
+										贵宾专线：136-3774-6364（卿先生）
+									</span>
+								</p>
+								<p>
+									<span style="font-size: 12px;text-indent: 2em;font-style: italic;color: red;font-weight: bold;">
+										考察地址：重庆市江北区观音桥未来国际41楼
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<footer id="footer" class="hidden-xs" style="margin-top: 50px;">
+				<div class="container-fluid">
+					<div class="container f1">
+						<div class="flogo hidden-xs">
+							<img src="img/flogo.png" />
+						</div>
+						<div class="lx hidden-xs">
+							<p class="fNav">
+								<a href="#">网站首页</a>|
+								<a href="#">关于我们</a>|
+								<a href="#">新闻中心</a>|
+								<a href="#">经营范围</a>|
+								<a href="#">成功案例</a>|
+								<a href="#">加盟连锁</a>|
+								<a href="#">联系我们</a>|
+								<a href="#">人才招聘</a>|
+							</p>
+							<div class="finfo">
+								<p>
+									<span>服务热线：023-6222-5555&nbsp;/&nbsp;400-023-1958</span>
+								</p>
+								<p>
+									<span>微信咨询：185-8111-5111</span>
+									<span>Q&nbsp;Q咨询：941870299</span>
+								</p>
+								<p>邮&nbsp;箱：cqlanxuan@163.com  </p>
+								<p>地&nbsp;址：重庆市江北区观音桥未来国际41楼（新世界百货塔楼）</p>
+								<p>重庆蓝轩清洁&nbsp;版权所有&copy;<a href="#" style="color:#d9d9d9;margin-left: 20px;">渝ICP备17001484号-17</a></p>
+							</div>
+						</div>
+						<div class="ewm text-center" style="text-align: center;">
+							<img src="img/Qr.jpg" />
+							 微信咨询更便捷 
+						</div>
+					</div>
+					<div class="f2">
+						<p class="container">
+							<span class="pull-left">
+								友情链接：
+								<a href="#" title="成都蓝轩清洁">成都蓝轩清洁</a>
+								<a href="#" title="重庆蓝轩清洁">重庆蓝轩清洁</a>
+							</span>
+							<span class="pull-right">
+								技术支持：
+								<a href="#" title="重庆蓝轩清洁" style="color: #DDDDDD;margin: 0 2px;">网沃科技</a>
+								<span id="cnzz_stat_icon_1264659126">
+									<a href="#">
+										<img src="img/pic.gif" style="vertical-align: middle;" />
+									</a>
+								</span>
+							</span>
+						</p>
+					</div>
+				</div>
+			</footer>
+			<!-- 手机的footer -->
+			<div class="visible-xs-block visible-footer noneDIV">
+				重庆蓝轩清洁 版权所有&copy;<br />
+				联系电话：023-6222-5555<br />
+				技术支持：<a href="#" style="color: #fff;">网沃科技</a>
+			</div>
+			<div class="nav4 visible-xs-block">
+				<nav>
+					<div id="nav4_ul" class="nav_4">
+						<ul class="box">
+							<li>
+								<a href="#">
+									<span>
+										<i class="glyphicon glyphicon-home"></i>
+										网站首页
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>
+										<i class="glyphicon glyphicon-earphone"></i>
+										联系我们
+									</span>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<span>
+										<i class="glyphicon glyphicon-hand-up"></i>
+										在线QQ
+									</span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<!-- 侧面导航 -->
+			<div class="toolbar hidden-xs">
+				<a href="javascript:;" class="toolbar-item toolbar-item-weixin">
+					<span class="showTu"></span>
+				</a>
+				<a href="javascript:;" class="toolbar-item toolbar-item-feedback">
+				</a>
+				<a href="javascript:;" class="toolbar-item toolbar-item-app">
+					<span class="showTu"></span>
+				</a>
+				<a href="#header" class="toolbar-item toolbar-item-top" id="btn">
+					<span class="showTu"></span>
+				</a>
+			</div>
+			</section>
+		</div>
+	</body>
+</html>
